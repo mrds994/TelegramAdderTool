@@ -15,15 +15,15 @@ def check_num(phone):
         if phone.isdigit():
             return phone
 
-DEFAULT_API_ID = 25194789
-DEFAULT_API_HASH = "e59afe25c17585635ec031c889eb5b34"
+DEFAULT_API_ID = 25496442
+DEFAULT_API_HASH = "c87f4d25cc2fee5589f1ce99449645ec"
 DEFAULT = "UserStatus.RECENTLY"
 
 OPTIONS = "UserStatus.LAST_MONTH", "UserStatus.LAST_WEEK", "UserStatus.OFFLINE", "UserStatus.RECENTLY", "UserStatus.ONLINE"
 config_path = Path("config.json")
-group_source = input("Enter the user ID of the group from which the members have to be scraped : ")
-group_target = input("Enter the user ID of the group in which the member is to be added : ")
-group_source_username = input("Enter the username of the group from which the members have to be scraped : ")
+group_source = input("1220441469")
+group_target = input("1814215928")
+group_source_username = input("jbakuntiktokig")
 if '+' in group_source_username:
     pass
 else:
